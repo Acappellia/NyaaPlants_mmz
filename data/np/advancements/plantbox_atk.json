@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "atk": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": "{Tags:[\"np_plantbox\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "np:atk/atk"
+    }
+}

@@ -1,0 +1,1 @@
+execute as @a[scores={np_playerplace=1..}] at @s run function np:place/check_hand

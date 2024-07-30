@@ -36,15 +36,6 @@
                     "blocks": "#air"
                 }
             }
-        },
-        {
-            "condition": "location_check",
-            "offsetY": 5,
-            "predicate": {
-                "block": {
-                    "blocks": "#air"
-                }
-            }
         }
     ]
 

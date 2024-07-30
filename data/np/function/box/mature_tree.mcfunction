@@ -8,7 +8,7 @@ execute if score @s np_plantid matches 4 run clone 6 -62 6 10 -57 10 ~-2 ~1 ~-2 
 
 particle happy_villager ~ ~1 ~ 0.3 0.3 0.3 0 10
 particle wax_on ~ ~1 ~ 0.3 0.3 0.3 0 10
-playsound item.crop.plant block @a ~ ~1 ~ 1 1
+playsound block.wood.place block @a ~ ~1 ~ 1 1
 
 scoreboard players reset @s np_plantid
 scoreboard players reset @s np_planttime

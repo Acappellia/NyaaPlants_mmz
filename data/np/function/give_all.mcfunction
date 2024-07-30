@@ -8,3 +8,6 @@ give @s cyan_concrete
 give @s iron_shovel
 
 function np:player/give_seed_setup {plantid:1}
+
+function np:player/give_sapling_setup {plantid:1}
+function np:player/give_sapling_setup {plantid:2}

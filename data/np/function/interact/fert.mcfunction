@@ -13,10 +13,8 @@ playsound item.crop.plant block @a ~ ~1 ~ 1 1
 
 data remove storage np:tmp plant_info
 execute store result storage np:tmp plant_info.plantid int 1 run scoreboard players get @s np_plantid
-execute if score @s np_planttime >= @s np_planttotaltime run function np:box/mature with storage np:tmp plant_info
-execute if score @s np_planttime >= @s np_planttotaltime run return 4
+execute if score @s np_planttime >= @s np_planttotaltime run return run function np:box/mature with storage np:tmp plant_info
 
-execute if score #crop_state np matches ..2 if score @s np_planttime >= @s np_plants3time run function np:box/stage3 with storage np:tmp plant_info
-execute if score #crop_state np matches ..2 if score @s np_planttime >= @s np_plants3time run return 3
+execute if score #crop_state np matches ..2 if score @s np_planttime >= @s np_plants3time run return run function np:box/stage3 with storage np:tmp plant_info
 
 execute if score #crop_state np matches ..1 if score @s np_planttime >= @s np_plants2time run function np:box/stage2 with storage np:tmp plant_info

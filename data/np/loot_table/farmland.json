@@ -47,7 +47,8 @@
                         {
                             "function": "set_custom_data",
                             "tag": {
-                                "np_box": 1
+                                "np_box": 1,
+                                "np_farmland": 1
                             }
                         }
                     ]

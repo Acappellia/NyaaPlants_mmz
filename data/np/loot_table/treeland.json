@@ -25,7 +25,7 @@
                                 ],
                                 [
                                     {
-                                        "text": "精心调配混合比例，得到了能够培育出标准五格橡木的优质泥土",
+                                        "text": "精心调配混合比例，得到了能够培育出标准四格原木的优质泥土",
                                         "color": "#c2ff78",
                                         "italic": false
                                     }
@@ -55,7 +55,8 @@
                         {
                             "function": "set_custom_data",
                             "tag": {
-                                "np_treebox": 1
+                                "np_box": 1,
+                                "np_treeland": 1
                             }
                         }
                     ]

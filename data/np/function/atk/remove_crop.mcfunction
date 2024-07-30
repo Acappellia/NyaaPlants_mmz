@@ -8,11 +8,12 @@ tag @s remove growing
 
 playsound block.grass.break block @a ~ ~1 ~ 1 1
 particle block{block_state:{Name:"wheat",Properties:{"age":"7"}}} ~ ~1.5 ~ 0.3 0.3 0.3 0 50
-execute on passengers on passengers run data modify entity @s block_state set value {Name:"air"}
-execute on passengers on passengers on passengers run data modify entity @s block_state set value {Name:"air"}
+execute on passengers on passengers run data remove entity @s block_state
+execute on passengers on passengers run data remove entity @s item
+execute on passengers on passengers on passengers run data remove entity @s block_state
 
 setblock 0 -64 0 bedrock
-setblock 0 -64 0 white_shulker_box{Items:[{Slot:0b,id:"stone",Count:1b}]}
+setblock 0 -64 0 white_shulker_box{Items:[{Slot:0b,id:"stone",count:1}]}
 
 execute if score @s np_planttime < @s np_planttotaltime run function np:atk/set_drop_seed with storage np:tmp plant_info
 execute if score @s np_planttime >= @s np_planttotaltime run function np:atk/set_drop with storage np:tmp plant_info

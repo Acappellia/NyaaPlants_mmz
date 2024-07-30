@@ -1,1 +1,59 @@
-{}
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "water_bucket",
+                    "functions": [
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 1
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "只要斜过来就永远会有水流出来的神奇水壶",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "老板说是因为里面装了四格无限水",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "湿润耕地，增加作物成长速度！",
+                                        "color": "#83eaff",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "\"浇水壶\""
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "np_bucket": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

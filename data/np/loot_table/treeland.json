@@ -1,1 +1,66 @@
-{}
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 2
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "结合泥土、灰化土、砂土、菌丝等多种土质的特点",
+                                        "color": "#c2ff78",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "精心调配混合比例，得到了能够培育出标准五格橡木的优质泥土",
+                                        "color": "#c2ff78",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": ""
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "需要放置在 青色混凝土 上",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "\"买买镇混合培养土\"",
+                                "max_stack_size": 16,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "np_treebox": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

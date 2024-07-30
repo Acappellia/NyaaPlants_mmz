@@ -1,129 +1,27 @@
 data remove storage np:plants plants
 
-data modify storage np:plants plants.1.seed set value {id:"wheat_seeds",tag:{np_seed:1,display:{Name:'[{"text":"优质小麦种子","color":"white","italic":false}]',Lore:['{"text":"简单的作物往往拥有最朴素的外表","color":"gray","italic":false}']}}}
+data modify storage np:plants plants.1.seed set value {id:"wheat_seeds",components:{\
+"minecraft:item_name":'"优质小麦种子"',\
+"minecraft:lore":['{"text":"简单的作物往往拥有最朴素的外表","color":"gray","italic":false}'],\
+"minecraft:custom_data":{np_seed:1}\
+}}
+#data modify storage np:plants plants.1.item_s1 set value {}
+#data modify storage np:plants plants.1.item_s2 set value {}
+#data modify storage np:plants plants.1.item_s3 set value {}
+#data modify storage np:plants plants.1.item_mature set value {}
 data modify storage np:plants plants.1.block_s1 set value {Name:"wheat",Properties:{"age":"0"}}
 data modify storage np:plants plants.1.block_s2 set value {Name:"wheat",Properties:{"age":"2"}}
 data modify storage np:plants plants.1.block_s3 set value {Name:"wheat",Properties:{"age":"4"}}
 data modify storage np:plants plants.1.block_mature set value {Name:"wheat",Properties:{"age":"7"}}
-data modify storage np:plants plants.1.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.1.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.1.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.1.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.1.crop set value {id:"wheat",Count:1b,tag:{display:{Name:'[{"text":"优质小麦","color":"white","italic":false}]',Lore:['{"text":"不建议用来制作面包","color":"gray","italic":false}']}}}
+#data modify storage np:plants plants.1.block_s1_2 set value {}
+#data modify storage np:plants plants.1.block_s2_2 set value {}
+#data modify storage np:plants plants.1.block_s3_2 set value {}
+#data modify storage np:plants plants.1.block_mature_2 set value {}
+data modify storage np:plants plants.1.crop set value {id:"wheat",count:1,componets:{\
+"minecraft:item_name":'"优质小麦"',\
+"minecraft:lore":['{"text":"不建议用来制作面包","color":"gray","italic":false}'],\
+"minecraft:custom_data":{np_crop:1}\
+}}
 data modify storage np:plants plants.1.s2time set value 12
 data modify storage np:plants plants.1.s3time set value 26
 data modify storage np:plants plants.1.totaltime set value 40
-
-data modify storage np:plants plants.2.seed set value {id:"pumpkin_seeds",tag:{np_seed:2,display:{Name:'[{"text":"优质胡萝卜种子","color":"white","italic":false}]',Lore:['{"text":"什么，不能直接用胡萝卜种地嘛","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.2.block_s1 set value {Name:"carrots",Properties:{"age":"0"}}
-data modify storage np:plants plants.2.block_s2 set value {Name:"carrots",Properties:{"age":"2"}}
-data modify storage np:plants plants.2.block_s3 set value {Name:"carrots",Properties:{"age":"4"}}
-data modify storage np:plants plants.2.block_mature set value {Name:"carrots",Properties:{"age":"7"}}
-data modify storage np:plants plants.2.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.2.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.2.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.2.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.2.crop set value {id:"carrot",Count:3b,tag:{display:{Name:'[{"text":"优质胡萝卜","color":"white","italic":false}]',Lore:['{"text":"小心点，别让兔子啃了，这一棵有点贵","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.2.s2time set value 16
-data modify storage np:plants plants.2.s3time set value 32
-data modify storage np:plants plants.2.totaltime set value 48
-
-data modify storage np:plants plants.3.seed set value {id:"melon_seeds",tag:{np_seed:3,display:{Name:'[{"text":"优质马铃薯种子","color":"white","italic":false}]',Lore:['{"text":"种瓜得瓜，种土豆得土豆","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.3.block_s1 set value {Name:"potatoes",Properties:{"age":"0"}}
-data modify storage np:plants plants.3.block_s2 set value {Name:"potatoes",Properties:{"age":"2"}}
-data modify storage np:plants plants.3.block_s3 set value {Name:"potatoes",Properties:{"age":"4"}}
-data modify storage np:plants plants.3.block_mature set value {Name:"potatoes",Properties:{"age":"7"}}
-data modify storage np:plants plants.3.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.3.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.3.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.3.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.3.crop set value {id:"potato",Count:2b,tag:{display:{Name:'[{"text":"优质马铃薯","color":"white","italic":false}]',Lore:['{"text":"买买镇土豆，最好吃的土豆！","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.3.s2time set value 30
-data modify storage np:plants plants.3.s3time set value 60
-data modify storage np:plants plants.3.totaltime set value 100
-
-data modify storage np:plants plants.4.seed set value {id:"beetroot_seeds",tag:{np_seed:4,display:{Name:'[{"text":"优质甜菜种子","color":"white","italic":false}]',Lore:['{"text":"不知道种什么的话，那就填菜吧！","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.4.block_s1 set value {Name:"beetroots",Properties:{"age":"0"}}
-data modify storage np:plants plants.4.block_s2 set value {Name:"beetroots",Properties:{"age":"1"}}
-data modify storage np:plants plants.4.block_s3 set value {Name:"beetroots",Properties:{"age":"2"}}
-data modify storage np:plants plants.4.block_mature set value {Name:"beetroots",Properties:{"age":"3"}}
-data modify storage np:plants plants.4.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.4.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.4.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.4.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.4.crop set value {id:"beetroot",Count:1b,tag:{display:{Name:'[{"text":"优质甜菜根","color":"white","italic":false}]',Lore:['{"text":"因为是田里挖出来的菜根……","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.4.s2time set value 60
-data modify storage np:plants plants.4.s3time set value 120
-data modify storage np:plants plants.4.totaltime set value 200
-
-data modify storage np:plants plants.5.seed set value {id:"torchflower_seeds",tag:{np_seed:5,display:{Name:'[{"text":"优质火把花种子","color":"white","italic":false}]',Lore:['{"text":"提示：严禁携带明火进入农田","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.5.block_s1 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
-data modify storage np:plants plants.5.block_s2 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
-data modify storage np:plants plants.5.block_s3 set value {Name:"torchflower_crop",Properties:{"age":"1"}}
-data modify storage np:plants plants.5.block_mature set value {Name:"torchflower"}
-data modify storage np:plants plants.5.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.5.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.5.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.5.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.5.crop set value {id:"torchflower",Count:1b,tag:{display:{Name:'[{"text":"优质火把花","color":"white","italic":false}]',Lore:['{"text":"虽然不能用来当火把，但至少很好看","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.5.s2time set value 100
-data modify storage np:plants plants.5.s3time set value 200
-data modify storage np:plants plants.5.totaltime set value 300
-
-data modify storage np:plants plants.6.seed set value {id:"pitcher_pod",tag:{np_seed:6,display:{Name:'[{"text":"优质瓶子草荚果","color":"white","italic":false}]',Lore:['{"text":"不知道从哪搞来的奇怪种子","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.6.block_s1 set value {Name:"pitcher_crop",Properties:{"age":"0","half":"lower"}}
-data modify storage np:plants plants.6.block_s2 set value {Name:"pitcher_crop",Properties:{"age":"2","half":"lower"}}
-data modify storage np:plants plants.6.block_s3 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"lower"}}
-data modify storage np:plants plants.6.block_mature set value {Name:"pitcher_crop",Properties:{"age":"4","half":"lower"}}
-data modify storage np:plants plants.6.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.6.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.6.block_s3_2 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"upper"}}
-data modify storage np:plants plants.6.block_mature_2 set value {Name:"pitcher_crop",Properties:{"age":"4","half":"upper"}}
-data modify storage np:plants plants.6.crop set value {id:"pitcher_plant",Count:1b,tag:{display:{Name:'[{"text":"优质瓶子草","color":"white","italic":false}]',Lore:['{"text":"从未见过的奇异植物，有着与众不同的价值","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.6.s2time set value 3000
-data modify storage np:plants plants.6.s3time set value 6000
-data modify storage np:plants plants.6.totaltime set value 9600
-
-data modify storage np:plants plants.7.seed set value {id:"flint",tag:{np_seed:7,display:{Name:'[{"text":"优质瓜子","color":"white","italic":false}]',Lore:['{"text":"（嗑）","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.7.block_s1 set value {Name:"melon_stem",Properties:{"age":"2"}}
-data modify storage np:plants plants.7.block_s2 set value {Name:"fern"}
-data modify storage np:plants plants.7.block_s3 set value {Name:"large_fern",Properties:{"half":"lower"}}
-data modify storage np:plants plants.7.block_mature set value {Name:"sunflower",Properties:{"half":"lower"}}
-data modify storage np:plants plants.7.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.7.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.7.block_s3_2 set value {Name:"large_fern",Properties:{"half":"upper"}}
-data modify storage np:plants plants.7.block_mature_2 set value {Name:"sunflower",Properties:{"half":"upper"}}
-data modify storage np:plants plants.7.crop set value {id:"sunflower",Count:1b,tag:{display:{Name:'[{"text":"优质向日葵","color":"white","italic":false}]',Lore:['{"text":"立马开始生产阳光！","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.7.s2time set value 2000
-data modify storage np:plants plants.7.s3time set value 4000
-data modify storage np:plants plants.7.totaltime set value 8000
-data modify storage np:plants plants.7.ismultiple set value 1
-
-data modify storage np:plants plants.8.seed set value {id:"cocoa_beans",tag:{np_seed:8,display:{Name:'[{"text":"优质甜浆果种子","color":"white","italic":false}]',Lore:['{"text":"再见了，所有的浆果人","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.8.block_s1 set value {Name:"melon_stem",Properties:{"age":"1"}}
-data modify storage np:plants plants.8.block_s2 set value {Name:"sweet_berry_bush",Properties:{"age":"0"}}
-data modify storage np:plants plants.8.block_s3 set value {Name:"sweet_berry_bush",Properties:{"age":"1"}}
-data modify storage np:plants plants.8.block_mature set value {Name:"sweet_berry_bush",Properties:{"age":"3"}}
-data modify storage np:plants plants.8.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.8.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.8.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.8.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.8.crop set value {id:"sweet_berries",Count:3b,tag:{display:{Name:'[{"text":"优质甜浆果","color":"white","italic":false}]',Lore:['{"text":"买买镇最棒的水果！","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.8.s2time set value 20
-data modify storage np:plants plants.8.s3time set value 30
-data modify storage np:plants plants.8.totaltime set value 40
-data modify storage np:plants plants.8.ismultiple set value 1
-
-data modify storage np:plants plants.9.seed set value {id:"amethyst_shard",tag:{np_seed:9,display:{Name:'[{"text":"优质紫水晶种子","color":"white","italic":false}]',Lore:['{"text":"这个也能种田里？","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.9.block_s1 set value {Name:"small_amethyst_bud",Properties:{"facing":"up"}}
-data modify storage np:plants plants.9.block_s2 set value {Name:"medium_amethyst_bud",Properties:{"facing":"up"}}
-data modify storage np:plants plants.9.block_s3 set value {Name:"large_amethyst_bud",Properties:{"facing":"up"}}
-data modify storage np:plants plants.9.block_mature set value {Name:"amethyst_cluster",Properties:{"facing":"up"}}
-data modify storage np:plants plants.9.block_s1_2 set value {Name:"air"}
-data modify storage np:plants plants.9.block_s2_2 set value {Name:"air"}
-data modify storage np:plants plants.9.block_s3_2 set value {Name:"air"}
-data modify storage np:plants plants.9.block_mature_2 set value {Name:"air"}
-data modify storage np:plants plants.9.crop set value {id:"amethyst_cluster",Count:1b,tag:{display:{Name:'[{"text":"优质紫水晶簇","color":"white","italic":false}]',Lore:['{"text":"或许这就是辛勤耕作的结晶吧","color":"gray","italic":false}']}}}
-data modify storage np:plants plants.9.s2time set value 11200
-data modify storage np:plants plants.9.s3time set value 45000
-data modify storage np:plants plants.9.totaltime set value 100000

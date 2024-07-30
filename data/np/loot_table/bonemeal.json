@@ -1,1 +1,54 @@
-{}
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bone_meal",
+                    "functions": [
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 1
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "可以加速作物成长的神奇魔法！",
+                                        "color": "#96ff81",
+                                        "italic": false
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "(说白了就是肥料)",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "\"小精灵的祝福\"",
+                                "max_stack_size": 16,
+                                "rarity": "epic"
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "np_fert": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

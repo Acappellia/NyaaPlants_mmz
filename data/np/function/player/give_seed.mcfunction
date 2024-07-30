@@ -1,2 +1,2 @@
-$give @s $(seedid)$(seedtag) 64
-$give @s $(cropid)$(croptag)
+$give @s $(seedid)[custom_name=$(seedname),lore=$(seedlore),custom_data=$(seeddata),custom_model_data=$(seedcmd)!max_damage,max_stack_size=64] 64
+$give @s $(cropid)[custom_name=$(cropname),lore=$(croplore),custom_data=$(cropdata),custom_model_data=$(cropcmd)!max_damage,max_stack_size=64]

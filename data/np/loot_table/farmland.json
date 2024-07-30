@@ -1,1 +1,58 @@
-{}
+{
+    "type": "generic",
+    "pools": [
+        {
+            "rolls": 1.0,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "warped_fungus_on_a_stick",
+                    "functions": [
+                        {
+                            "function": "set_custom_model_data",
+                            "value": 1
+                        },
+                        {
+                            "function": "set_lore",
+                            "mode": "replace_all",
+                            "lore": [
+                                [
+                                    {
+                                        "text": "“吸收两米以下氮磷钾，小麦亩产一千八！”",
+                                        "color": "#ffe37e"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": ""
+                                    }
+                                ],
+                                [
+                                    {
+                                        "text": "需要放置在 棕色混凝土 上",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
+                            ]
+                        },
+                        {
+                            "function": "set_components",
+                            "components": {
+                                "item_name": "\"买买镇精选耕地\"",
+                                "max_stack_size": 16,
+                                "!max_damage": {}
+                            }
+                        },
+                        {
+                            "function": "set_custom_data",
+                            "tag": {
+                                "np_box": 1
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

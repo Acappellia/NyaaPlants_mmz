@@ -1,0 +1,8 @@
+{
+    "condition": "random_chance",
+    "chance": {
+        "type": "storage",
+        "path": "rare_chance",
+        "storage": "np:plants"
+    }
+}

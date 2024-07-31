@@ -11,8 +11,8 @@ scoreboard objectives add np_planttotaltime dummy
 scoreboard objectives add np_plantinteract dummy
 
 function np:inits/team
-function np:inits/plant_data
-function np:inits/tree_data
+#function np:inits/plant_data
+#function np:inits/tree_data
 
 forceload add 0 0 0 0
 

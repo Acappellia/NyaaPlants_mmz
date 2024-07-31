@@ -1,5 +1,7 @@
 data remove storage np:plants plants
 
+data modify storage np:plants rare_chance set value 0.1
+
 data modify storage np:plants plants.1.seed set value {id:"wheat_seeds",components:{\
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质小麦种子"',\
@@ -24,6 +26,13 @@ data modify storage np:plants plants.1.crop set value {id:"wheat",count:1,compon
 "minecraft:lore":['{"text":"不建议用来制作面包","color":"gray","italic":false}'],\
 "minecraft:custom_data":{np_crop:1}\
 }}
-data modify storage np:plants plants.1.s2time set value 12
-data modify storage np:plants plants.1.s3time set value 26
-data modify storage np:plants plants.1.totaltime set value 40
+data modify storage np:plants plants.1.crop_rare set value {id:"wheat",count:1,components:{\
+"minecraft:custom_model_data":0,\
+"minecraft:item_name":'"优质小麦"',\
+"minecraft:rarity":"uncommon",\
+"minecraft:lore":['{"text":"不建议用来制作面包","color":"gray","italic":false}'],\
+"minecraft:custom_data":{np_crop:1}\
+}}
+data modify storage np:plants plants.1.s2time set value 3600
+data modify storage np:plants plants.1.s3time set value 7200
+data modify storage np:plants plants.1.totaltime set value 10800

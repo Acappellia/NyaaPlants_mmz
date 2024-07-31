@@ -17,7 +17,7 @@ setblock 0 -64 0 white_shulker_box{Items:[{Slot:0b,id:"stone",count:1}]}
 
 execute as @s[tag=np_treebox] run function np:atk/set_drop_sapling with storage np:tmp plant_info
 execute as @s[tag=np_cropbox] if score @s np_planttime < @s np_planttotaltime run function np:atk/set_drop_seed with storage np:tmp plant_info
-execute as @s[tag=np_cropbox] if score @s np_planttime >= @s np_planttotaltime run function np:atk/set_drop with storage np:tmp plant_info
+execute as @s[tag=np_cropbox] if score @s np_planttime >= @s np_planttotaltime run function np:atk/set_drop
 
 loot spawn ~ ~1 ~ mine 0 -64 0
 setblock 0 -64 0 bedrock

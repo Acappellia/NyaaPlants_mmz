@@ -6,3 +6,5 @@ execute if predicate np:rare_chance run return run function np:atk/set_drop_rare
 $data modify block 0 -64 0 Items[{Slot:0b}].id set from storage np:plants plants.$(plantid).crop.id
 $data modify block 0 -64 0 Items[{Slot:0b}].count set from storage np:plants plants.$(plantid).crop.count
 $data modify block 0 -64 0 Items[{Slot:0b}].components set from storage np:plants plants.$(plantid).crop.components
+
+tellraw @a "11"

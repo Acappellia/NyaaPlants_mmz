@@ -3,7 +3,7 @@ execute if score @s np_planttime >= @s np_plants2time run scoreboard players add
 execute if score @s np_planttime >= @s np_plants3time run scoreboard players add #crop_state np 1
 execute if score @s np_planttime >= @s np_planttotaltime run return -1
 
-item modify entity @p[tag=np_user,distance=..10] weapon.mainhand np:remove_1
+item modify entity @p[tag=np_user,distance=..10,gamemode=!creative] weapon.mainhand np:remove_1
 scoreboard players add @s np_planttime 3600
 
 execute on passengers run data modify entity @s block_state set value {Name:"farmland",Properties:{"moisture":"0"}}

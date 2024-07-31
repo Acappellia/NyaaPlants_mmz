@@ -1,6 +1,6 @@
 execute if score @s np_planttime >= @s np_planttotaltime run return -1
 
-item modify entity @p[tag=np_user,distance=..10] weapon.mainhand np:remove_1
+item modify entity @p[tag=np_user,distance=..10,gamemode=!creative] weapon.mainhand np:remove_1
 scoreboard players add @s np_planttime 3600
 
 particle wax_off ~ ~1 ~ 0.3 0.3 0.3 0 10

@@ -1,6 +1,6 @@
 function np:player/update_teamscore
 
-item modify entity @s weapon.mainhand np:remove_1
+item modify entity @s[gamemode=!creative] weapon.mainhand np:remove_1
 
 setblock ~ ~ ~ barrier
 

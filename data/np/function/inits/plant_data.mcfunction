@@ -6,8 +6,8 @@ data modify storage np:plants plants.1.seed set value {id:"wheat_seeds",componen
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质小麦种子"',\
 "minecraft:lore":['{"text":"简单的作物往往拥有最朴素的外表","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.1.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.1.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 10800 | 3h","color":"white","italic":false}]',\
+'[{"text":"产物: 小麦 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:1}\
 }}
 #data modify storage np:plants plants.1.item_s1 set value {}
@@ -45,8 +45,8 @@ data modify storage np:plants plants.2.seed set value {id:"beetroot_seeds",compo
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质甜菜种子"',\
 "minecraft:lore":['{"text":"不知道种什么的话，那就填菜吧！","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.2.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.2.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 5400 | 1.5h","color":"white","italic":false}]',\
+'[{"text":"产物: 甜菜根 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:2}\
 }}
 #data modify storage np:plants plants.2.item_s1 set value {}
@@ -84,8 +84,8 @@ data modify storage np:plants plants.3.seed set value {id:"melon_seeds",componen
 "minecraft:custom_model_data":1,\
 "minecraft:item_name":'"优质马铃薯种子"',\
 "minecraft:lore":['{"text":"种瓜得瓜，种土豆得土豆","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.3.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.3.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 18000 | 5h","color":"white","italic":false}]',\
+'[{"text":"产物: 马铃薯 x3","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:3}\
 }}
 #data modify storage np:plants plants.3.item_s1 set value {}
@@ -123,8 +123,8 @@ data modify storage np:plants plants.4.seed set value {id:"melon_seeds",componen
 "minecraft:custom_model_data":2,\
 "minecraft:item_name":'"优质胡萝卜种子"',\
 "minecraft:lore":['{"text":"什么，不能直接用胡萝卜种地嘛","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.4.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.4.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 10800 | 3h","color":"white","italic":false}]',\
+'[{"text":"产物: 胡萝卜 x3","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:4}\
 }}
 #data modify storage np:plants plants.4.item_s1 set value {}
@@ -161,8 +161,8 @@ data modify storage np:plants plants.5.seed set value {id:"pitcher_pod",componen
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质瓶子草荚果"',\
 "minecraft:lore":['{"text":"不知道从哪搞来的奇怪种子","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.5.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.5.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 43200 | 12h","color":"white","italic":false}]',\
+'[{"text":"产物: 瓶子草 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:5}\
 }}
 #data modify storage np:plants plants.5.item_s1 set value {}
@@ -199,9 +199,9 @@ data modify storage np:plants plants.5.totaltime set value 43200
 data modify storage np:plants plants.6.seed set value {id:"torchflower_seeds",components:{\
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质火把花种子"',\
-"minecraft:lore":['{"text":"提示：严禁携带明火进入农田","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.6.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.6.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+"minecraft:lore":['{"text":"提示: 严禁携带明火进入农田","color":"gray","italic":false}',\
+'""','[{"text":"生长周期: 5400 | 1.5h","color":"white","italic":false}]',\
+'[{"text":"产物: 火把花 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:6}\
 }}
 #data modify storage np:plants plants.6.item_s1 set value {}
@@ -239,8 +239,8 @@ data modify storage np:plants plants.7.seed set value {id:"pumpkin_seeds",compon
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质南瓜种子"',\
 "minecraft:lore":['{"text":"南瓜好种蓝瓜难，蓝瓜种出烂蓝瓜","color":"gray","italic":false}','{"text":"烂瓜放进南瓜篮，南瓜发烂烂瓜变蓝","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.7.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.7.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 9600+4800 | 2.7h+1.3h","color":"white","italic":false}]',\
+'[{"text":"产物: 南瓜 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:7}\
 }}
 data modify storage np:plants plants.7.item_s1 set value {id:"melon_seeds",components:{"minecraft:custom_model_data":101}}
@@ -279,8 +279,8 @@ data modify storage np:plants plants.8.seed set value {id:"melon_seeds",componen
 "minecraft:custom_model_data":3,\
 "minecraft:item_name":'"优质草莓种子"',\
 "minecraft:lore":['{"text":"从隔壁来的朋友一看就知道种这个包是发财的","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.8.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.8.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 57600+28800 | 18h+6h","color":"white","italic":false}]',\
+'[{"text":"产物: 草莓 x2","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:8}\
 }}
 data modify storage np:plants plants.8.item_s1 set value {id:"melon_seeds",components:{"minecraft:custom_model_data":105}}
@@ -319,9 +319,9 @@ data modify storage np:plants plants.9.seed set value {id:"melon_seeds",componen
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质西瓜种子"',\
 "minecraft:lore":['{"text":"9535西瓜，保熟！","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.9.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.9.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
-"minecraft:custom_data":{np_seed:8}\
+'""','[{"text":"生长周期: 14400+7200 | 4h+2h","color":"white","italic":false}]',\
+'[{"text":"产物: 西瓜 x1","color":"white","italic":false}]'],\
+"minecraft:custom_data":{np_seed:9}\
 }}
 data modify storage np:plants plants.9.item_s1 set value {id:"melon_seeds",components:{"minecraft:custom_model_data":109}}
 data modify storage np:plants plants.9.item_s2 set value {id:"melon_seeds",components:{"minecraft:custom_model_data":110}}
@@ -339,7 +339,7 @@ data modify storage np:plants plants.9.crop set value {id:"melon",count:1,compon
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质西瓜"',\
 "minecraft:lore":['{"text":"趁新鲜赶紧卖给路边的吃瓜群众","color":"gray","italic":false}'],\
-"minecraft:custom_data":{np_crop:8}\
+"minecraft:custom_data":{np_crop:9}\
 }}
 data modify storage np:plants plants.9.crop_rare set value {id:"melon",count:1,components:{\
 "minecraft:custom_model_data":0,\
@@ -347,7 +347,7 @@ data modify storage np:plants plants.9.crop_rare set value {id:"melon",count:1,c
 "minecraft:rarity":"uncommon",\
 "minecraft:enchantment_glint_override":true,\
 "minecraft:lore":['{"text":"趁新鲜赶紧卖给路边的吃瓜群众","color":"gray","italic":false}'],\
-"minecraft:custom_data":{np_crop:8}\
+"minecraft:custom_data":{np_crop:9}\
 }}
 data modify storage np:plants plants.9.s2time set value 7200
 data modify storage np:plants plants.9.s3time set value 14400
@@ -359,8 +359,8 @@ data modify storage np:plants plants.10.seed set value {id:"melon_seeds",compone
 "minecraft:custom_model_data":5,\
 "minecraft:item_name":'"优质瓜子"',\
 "minecraft:lore":['{"text":"（嗑）","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.10.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.10.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 18000 | 5h","color":"white","italic":false}]',\
+'[{"text":"产物: 向日葵 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:10}\
 }}
 data modify storage np:plants plants.10.item_s1 set value {id:"melon_seeds",components:{"minecraft:custom_model_data":113}}
@@ -398,8 +398,8 @@ data modify storage np:plants plants.11.seed set value {id:"amethyst_shard",comp
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质紫水晶种子"',\
 "minecraft:lore":['{"text":"这个也能种田里？","color":"gray","italic":false}',\
-'""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"plants.11.totaltime","storage":"np:plants","color":"white","italic":false}',\
-'{"text":"产物：","color":"white","italic":false},{"nbt":"plants.11.crop.components.\\"minecraft:item_name\\"","storage":"np:plants","interpret":true,"color":"white","italic":false}'],\
+'""','[{"text":"生长周期: 86400 | 24h","color":"white","italic":false}]',\
+'[{"text":"产物: 紫水晶簇 x2","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:11}\
 }}
 #data modify storage np:plants plants.11.item_s1 set value {}
@@ -431,4 +431,3 @@ data modify storage np:plants plants.11.crop_rare set value {id:"amethyst_cluste
 data modify storage np:plants plants.11.s2time set value 28800
 data modify storage np:plants plants.11.s3time set value 57600
 data modify storage np:plants plants.11.totaltime set value 86400
-data modify storage np:plants plants.11.ismultiple set value 1

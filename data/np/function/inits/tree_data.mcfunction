@@ -3,7 +3,9 @@ data remove storage np:plants trees
 data modify storage np:plants trees.1.seed set value {id:"oak_sapling",components:{\
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质橡树树苗"',\
-"minecraft:lore":['{"text":"标准树苗，绝对种不出大树","color":"gray","italic":false}','""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"trees.1.totaltime","storage":"np:plants","color":"white","italic":false}'],\
+"minecraft:lore":['{"text":"标准树苗，绝对种不出大树","color":"gray","italic":false}',\
+'""','[{"text":"生长周期: 43200 | 12h","color":"white","italic":false}]',\
+'[{"text":"产物: 橡木原木 x4","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_sapling:1}\
 }}
 #data modify storage np:plants trees.1.item_s1 set value {}
@@ -21,7 +23,9 @@ fill 3 -57 2 3 -57 4 minecraft:oak_leaves[persistent=false] replace #air
 data modify storage np:plants trees.2.seed set value {id:"birch_sapling",components:{\
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质白桦树苗"',\
-"minecraft:lore":['{"text":"标准树苗，绝对种不出大树","color":"gray","italic":false}','""','{"text":"生长周期：","color":"white","italic":false},{"nbt":"trees.2.totaltime","storage":"np:plants","color":"white","italic":false}'],\
+"minecraft:lore":['{"text":"标准树苗，绝对种不出大树","color":"gray","italic":false}',\
+'""','[{"text":"生长周期: 86400 | 24h","color":"white","italic":false}]',\
+'[{"text":"产物: 白桦原木 x4","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_sapling:2}\
 }}
 #data modify storage np:plants trees.2.item_s1 set value {}

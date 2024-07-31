@@ -1,5 +1,5 @@
 execute at @s unless block ~ ~1 ~ #air run return -1
-item modify entity @p[tag=np_user,distance=..10] weapon.mainhand np:remove_1
+item modify entity @p[tag=np_user,distance=..10,gamemode=!creative] weapon.mainhand np:remove_1
 
 $scoreboard players set @s np_plantid $(plantid)
 scoreboard players set @s np_planttime 0

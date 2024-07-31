@@ -6,8 +6,9 @@ execute if score @s np_planttime >= @s np_planttotaltime run return -1
 item modify entity @p[tag=np_user,distance=..10,gamemode=!creative] weapon.mainhand np:remove_1
 scoreboard players add @s np_planttime 3600
 
-execute on passengers run data modify entity @s block_state set value {Name:"farmland",Properties:{"moisture":"0"}}
-tag @s remove watered
+execute unless predicate np:is_raining on passengers run data modify entity @s block_state set value {Name:"farmland",Properties:{"moisture":"0"}}
+execute unless predicate np:is_raining run tag @s remove watered
+
 particle wax_off ~ ~1 ~ 0.3 0.3 0.3 0 10
 playsound item.crop.plant block @a ~ ~1 ~ 1 1
 

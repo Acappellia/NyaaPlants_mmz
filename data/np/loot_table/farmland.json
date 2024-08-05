@@ -10,7 +10,7 @@
                     "functions": [
                         {
                             "function": "set_custom_model_data",
-                            "value": 1
+                            "value": 2
                         },
                         {
                             "function": "set_lore",

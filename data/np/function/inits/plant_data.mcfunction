@@ -10,14 +10,14 @@ data modify storage np:plants plants.1.seed set value {id:"wheat_seeds",componen
 '[{"text":"产物: 小麦 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:1}\
 }}
-data modify storage np:plants plants.1.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":101}}
-data modify storage np:plants plants.1.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":102}}
-data modify storage np:plants plants.1.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":103}}
-data modify storage np:plants plants.1.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":104}}
-#data modify storage np:plants plants.1.block_s1 set value {Name:"wheat",Properties:{"age":"0"}}
-#data modify storage np:plants plants.1.block_s2 set value {Name:"wheat",Properties:{"age":"2"}}
-#data modify storage np:plants plants.1.block_s3 set value {Name:"wheat",Properties:{"age":"4"}}
-#data modify storage np:plants plants.1.block_mature set value {Name:"wheat",Properties:{"age":"7"}}
+#data modify storage np:plants plants.1.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":101}}
+#data modify storage np:plants plants.1.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":102}}
+#data modify storage np:plants plants.1.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":103}}
+#data modify storage np:plants plants.1.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":104}}
+data modify storage np:plants plants.1.block_s1 set value {Name:"wheat",Properties:{"age":"0"}}
+data modify storage np:plants plants.1.block_s2 set value {Name:"wheat",Properties:{"age":"2"}}
+data modify storage np:plants plants.1.block_s3 set value {Name:"wheat",Properties:{"age":"4"}}
+data modify storage np:plants plants.1.block_mature set value {Name:"wheat",Properties:{"age":"7"}}
 #data modify storage np:plants plants.1.block_s1_2 set value {}
 #data modify storage np:plants plants.1.block_s2_2 set value {}
 #data modify storage np:plants plants.1.block_s3_2 set value {}
@@ -49,14 +49,14 @@ data modify storage np:plants plants.2.seed set value {id:"beetroot_seeds",compo
 '[{"text":"产物: 甜菜根 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:2}\
 }}
-data modify storage np:plants plants.2.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":201}}
-data modify storage np:plants plants.2.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":202}}
-data modify storage np:plants plants.2.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":203}}
-data modify storage np:plants plants.2.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":204}}
-#data modify storage np:plants plants.2.block_s1 set value {Name:"beetroots",Properties:{"age":"0"}}
-#data modify storage np:plants plants.2.block_s2 set value {Name:"beetroots",Properties:{"age":"1"}}
-#data modify storage np:plants plants.2.block_s3 set value {Name:"beetroots",Properties:{"age":"2"}}
-#data modify storage np:plants plants.2.block_mature set value {Name:"beetroots",Properties:{"age":"3"}}
+#data modify storage np:plants plants.2.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":201}}
+#data modify storage np:plants plants.2.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":202}}
+#data modify storage np:plants plants.2.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":203}}
+#data modify storage np:plants plants.2.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":204}}
+data modify storage np:plants plants.2.block_s1 set value {Name:"beetroots",Properties:{"age":"0"}}
+data modify storage np:plants plants.2.block_s2 set value {Name:"beetroots",Properties:{"age":"1"}}
+data modify storage np:plants plants.2.block_s3 set value {Name:"beetroots",Properties:{"age":"2"}}
+data modify storage np:plants plants.2.block_mature set value {Name:"beetroots",Properties:{"age":"3"}}
 #data modify storage np:plants plants.2.block_s1_2 set value {}
 #data modify storage np:plants plants.2.block_s2_2 set value {}
 #data modify storage np:plants plants.2.block_s3_2 set value {}
@@ -88,14 +88,14 @@ data modify storage np:plants plants.3.seed set value {id:"wheat_seeds",componen
 '[{"text":"产物: 马铃薯 x3","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:3}\
 }}
-data modify storage np:plants plants.3.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":301}}
-data modify storage np:plants plants.3.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":302}}
-data modify storage np:plants plants.3.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":303}}
-data modify storage np:plants plants.3.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":304}}
-#data modify storage np:plants plants.3.block_s1 set value {Name:"potatoes",Properties:{"age":"0"}}
-#data modify storage np:plants plants.3.block_s2 set value {Name:"potatoes",Properties:{"age":"2"}}
-#data modify storage np:plants plants.3.block_s3 set value {Name:"potatoes",Properties:{"age":"4"}}
-#data modify storage np:plants plants.3.block_mature set value {Name:"potatoes",Properties:{"age":"7"}}
+#data modify storage np:plants plants.3.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":301}}
+#data modify storage np:plants plants.3.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":302}}
+#data modify storage np:plants plants.3.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":303}}
+#data modify storage np:plants plants.3.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":304}}
+data modify storage np:plants plants.3.block_s1 set value {Name:"potatoes",Properties:{"age":"0"}}
+data modify storage np:plants plants.3.block_s2 set value {Name:"potatoes",Properties:{"age":"2"}}
+data modify storage np:plants plants.3.block_s3 set value {Name:"potatoes",Properties:{"age":"4"}}
+data modify storage np:plants plants.3.block_mature set value {Name:"potatoes",Properties:{"age":"7"}}
 #data modify storage np:plants plants.3.block_s1_2 set value {}
 #data modify storage np:plants plants.3.block_s2_2 set value {}
 #data modify storage np:plants plants.3.block_s3_2 set value {}
@@ -127,14 +127,14 @@ data modify storage np:plants plants.4.seed set value {id:"wheat_seeds",componen
 '[{"text":"产物: 胡萝卜 x3","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:4}\
 }}
-data modify storage np:plants plants.4.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":401}}
-data modify storage np:plants plants.4.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":402}}
-data modify storage np:plants plants.4.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":403}}
-data modify storage np:plants plants.4.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":404}}
-#data modify storage np:plants plants.4.block_s1 set value {Name:"carrots",Properties:{"age":"0"}}
-#data modify storage np:plants plants.4.block_s2 set value {Name:"carrots",Properties:{"age":"2"}}
-#data modify storage np:plants plants.4.block_s3 set value {Name:"carrots",Properties:{"age":"4"}}
-#data modify storage np:plants plants.4.block_mature set value {Name:"carrots",Properties:{"age":"7"}}
+#data modify storage np:plants plants.4.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":401}}
+#data modify storage np:plants plants.4.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":402}}
+#data modify storage np:plants plants.4.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":403}}
+#data modify storage np:plants plants.4.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":404}}
+data modify storage np:plants plants.4.block_s1 set value {Name:"carrots",Properties:{"age":"0"}}
+data modify storage np:plants plants.4.block_s2 set value {Name:"carrots",Properties:{"age":"2"}}
+data modify storage np:plants plants.4.block_s3 set value {Name:"carrots",Properties:{"age":"4"}}
+data modify storage np:plants plants.4.block_mature set value {Name:"carrots",Properties:{"age":"7"}}
 #data modify storage np:plants plants.4.block_s1_2 set value {}
 #data modify storage np:plants plants.4.block_s2_2 set value {}
 #data modify storage np:plants plants.4.block_s3_2 set value {}
@@ -165,18 +165,18 @@ data modify storage np:plants plants.5.seed set value {id:"pitcher_pod",componen
 '[{"text":"产物: 瓶子草 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:5}\
 }}
-data modify storage np:plants plants.5.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":601}}
-data modify storage np:plants plants.5.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":602}}
-data modify storage np:plants plants.5.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":603}}
-data modify storage np:plants plants.5.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":604}}
-#data modify storage np:plants plants.5.block_s1 set value {Name:"pitcher_crop",Properties:{"age":"0","half":"lower"}}
-#data modify storage np:plants plants.5.block_s2 set value {Name:"pitcher_crop",Properties:{"age":"2","half":"lower"}}
-#data modify storage np:plants plants.5.block_s3 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"lower"}}
-#data modify storage np:plants plants.5.block_mature set value {Name:"pitcher_crop",Properties:{"age":"4","half":"lower"}}
-#data modify storage np:plants plants.5.block_s1_2 set value {}
-#data modify storage np:plants plants.5.block_s2_2 set value {}
-#data modify storage np:plants plants.5.block_s3_2 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"upper"}}
-#data modify storage np:plants plants.5.block_mature_2 set value {Name:"pitcher_crop",Properties:{"age":"4","half":"upper"}}
+#data modify storage np:plants plants.5.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":601}}
+#data modify storage np:plants plants.5.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":602}}
+#data modify storage np:plants plants.5.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":603}}
+#data modify storage np:plants plants.5.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":604}}
+data modify storage np:plants plants.5.block_s1 set value {Name:"pitcher_crop",Properties:{"age":"0","half":"lower"}}
+data modify storage np:plants plants.5.block_s2 set value {Name:"pitcher_crop",Properties:{"age":"2","half":"lower"}}
+data modify storage np:plants plants.5.block_s3 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"lower"}}
+data modify storage np:plants plants.5.block_mature set value {Name:"pitcher_crop",Properties:{"age":"4","half":"lower"}}
+data modify storage np:plants plants.5.block_s1_2 set value {}
+data modify storage np:plants plants.5.block_s2_2 set value {}
+data modify storage np:plants plants.5.block_s3_2 set value {Name:"pitcher_crop",Properties:{"age":"3","half":"upper"}}
+data modify storage np:plants plants.5.block_mature_2 set value {Name:"pitcher_crop",Properties:{"age":"4","half":"upper"}}
 data modify storage np:plants plants.5.crop set value {id:"pitcher_plant",count:1,components:{\
 "minecraft:custom_model_data":0,\
 "minecraft:item_name":'"优质瓶子草"',\
@@ -204,14 +204,14 @@ data modify storage np:plants plants.6.seed set value {id:"torchflower_seeds",co
 '[{"text":"产物: 火把花 x1","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:6}\
 }}
-data modify storage np:plants plants.6.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":701}}
-data modify storage np:plants plants.6.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":702}}
-data modify storage np:plants plants.6.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":703}}
-data modify storage np:plants plants.6.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":704}}
-#data modify storage np:plants plants.6.block_s1 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
-#data modify storage np:plants plants.6.block_s2 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
-#data modify storage np:plants plants.6.block_s3 set value {Name:"torchflower_crop",Properties:{"age":"1"}}
-#data modify storage np:plants plants.6.block_mature set value {Name:"torchflower"}
+#data modify storage np:plants plants.6.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":701}}
+#data modify storage np:plants plants.6.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":702}}
+#data modify storage np:plants plants.6.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":703}}
+#data modify storage np:plants plants.6.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":704}}
+data modify storage np:plants plants.6.block_s1 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
+data modify storage np:plants plants.6.block_s2 set value {Name:"torchflower_crop",Properties:{"age":"0"}}
+data modify storage np:plants plants.6.block_s3 set value {Name:"torchflower_crop",Properties:{"age":"1"}}
+data modify storage np:plants plants.6.block_mature set value {Name:"torchflower"}
 #data modify storage np:plants plants.6.block_s1_2 set value {}
 #data modify storage np:plants plants.6.block_s2_2 set value {}
 #data modify storage np:plants plants.6.block_s3_2 set value {}
@@ -402,14 +402,14 @@ data modify storage np:plants plants.11.seed set value {id:"amethyst_shard",comp
 '[{"text":"产物: 紫水晶簇 x2","color":"white","italic":false}]'],\
 "minecraft:custom_data":{np_seed:11}\
 }}
-data modify storage np:plants plants.11.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":501}}
-data modify storage np:plants plants.11.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":502}}
-data modify storage np:plants plants.11.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":503}}
-data modify storage np:plants plants.11.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":504}}
-#data modify storage np:plants plants.11.block_s1 set value {Name:"small_amethyst_bud",Properties:{"facing":"up"}}
-#data modify storage np:plants plants.11.block_s2 set value {Name:"medium_amethyst_bud",Properties:{"facing":"up"}}
-#data modify storage np:plants plants.11.block_s3 set value {Name:"large_amethyst_bud",Properties:{"facing":"up"}}
-#data modify storage np:plants plants.11.block_mature set value {Name:"amethyst_cluster",Properties:{"facing":"up"}}
+#data modify storage np:plants plants.11.item_s1 set value {id:"wheat",components:{"minecraft:custom_model_data":501}}
+#data modify storage np:plants plants.11.item_s2 set value {id:"wheat",components:{"minecraft:custom_model_data":502}}
+#data modify storage np:plants plants.11.item_s3 set value {id:"wheat",components:{"minecraft:custom_model_data":503}}
+#data modify storage np:plants plants.11.item_mature set value {id:"wheat",components:{"minecraft:custom_model_data":504}}
+data modify storage np:plants plants.11.block_s1 set value {Name:"small_amethyst_bud",Properties:{"facing":"up"}}
+data modify storage np:plants plants.11.block_s2 set value {Name:"medium_amethyst_bud",Properties:{"facing":"up"}}
+data modify storage np:plants plants.11.block_s3 set value {Name:"large_amethyst_bud",Properties:{"facing":"up"}}
+data modify storage np:plants plants.11.block_mature set value {Name:"amethyst_cluster",Properties:{"facing":"up"}}
 #data modify storage np:plants plants.11.block_s1_2 set value {}
 #data modify storage np:plants plants.11.block_s2_2 set value {}
 #data modify storage np:plants plants.11.block_s3_2 set value {}
